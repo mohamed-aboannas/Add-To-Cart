@@ -1,0 +1,14 @@
+<div class="center">
+  <div class="card" style="width: 20rem;" *ngFor="let item of item">
+    <img class="card-img-top" src="{{item.image}}" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">{{item.title}}</h5>
+      <p class="card-text">{{item.description}}</p>
+      <p class="card-text">{{item.price|currency}}</p>
+      <button (click)="addToCart(item)" class="btn btn-primary">Add To Cart</button> 
+      <br>
+      <a href="">Back To Products List</a>
+    </div>
+  </div>
+</div>
+

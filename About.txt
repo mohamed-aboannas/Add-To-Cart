@@ -1,0 +1,25 @@
+
+Summary:
+
+-To view product details please click on product image.
+-Add product in cart by click Add to cart button in products or details page
+-in cart if user want buy the selected products, by clicking buy button on the top of padge
+-now user saw form to insert his name ,address and credit.
+
+requirements:
+
+-bootstrap
+
+
+structure:
+
+Componrnts:
+-products
+-product-details
+-cart
+
+services:
+-productService
+
+Model:
+-item

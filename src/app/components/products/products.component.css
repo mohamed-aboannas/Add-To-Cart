@@ -1,0 +1,58 @@
+
+/*.contr{
+    display: grid;
+    
+    margin: auto;
+    
+    grid-template-columns: 32.5% 32.5% 32.5%;
+    padding-left: 10px;
+}
+.item{
+    
+    margin: 5px;
+    padding: 3px;
+    display: grid;
+    
+    justify-items:center;
+    color: red;
+    width: 100%;
+    border: 1px solid;
+    border-style: inset;
+}
+
+.item img{
+    width: 99%;
+    height: 300px;
+    
+
+}
+
+.details select{
+    width: 100px;
+    
+}
+.btn{
+    background-color: green;
+    
+}
+*/
+.card img{
+    height: 200px;
+}
+
+.card{
+    align-items: center;
+    margin: 20px;
+}
+.card-text{
+    color: red;
+}
+.row>* {
+    margin: 10px;
+}
+.card:hover{
+    background: rgb(214, 176, 176);
+}
+
+
+
